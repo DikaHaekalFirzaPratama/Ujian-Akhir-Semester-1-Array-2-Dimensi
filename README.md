@@ -9,21 +9,18 @@ Tema utama dari source code yang satu ini adalah untuk membuat array 2 dimensi m
 Tujuan utama dari source code ini adalah mengubah letak nilai yang tadinya sebuah baris menjadi sebuah kolom, begitupun sebaliknya.
 Algoritma dari Source code ini yaitu :
 
-1.User menginputkan berapa banyak baris pada array.
-2.User menginputkan berapa banyak kolom dari baris pada array.
-3.User menginputkan satu persatu nilai array,dimulai dari baris 1 dan kolom 1.
-4.Jika sudah,Nilai dalam array tersebut di tampilkan sesuai aturan matriks.
-5.Lalu ditampilkan juga nilai dalam array yang sudah dibalik,dari baris menjadi kolom dan sebaliknya.
+1. User menginputkan berapa banyak baris pada array.
+2. User menginputkan berapa banyak kolom dari baris pada array.
+3. User menginputkan satu persatu nilai array,dimulai dari baris 1 dan kolom 1.
+4. Jika sudah,Nilai dalam array tersebut di tampilkan sesuai aturan matriks.
+5. Lalu ditampilkan juga nilai dalam array yang sudah dibalik,dari baris menjadi kolom dan sebaliknya.
 
 ## Source Code
-#include <iostream>
-using namespace std;
-
-void garis(){
-cout << "=======================================" << endl;}
-
-int main(){
-
+	#include <iostream>
+	using namespace std;
+	void garis(){
+	cout << "=======================================" << endl;}
+	int main(){
 	garis();
 	int input [100][100];
 	int baris, kolom, i, j;
@@ -40,7 +37,7 @@ int main(){
 			cin >> input[i][j];
 		}
 	garis();
-}
+	}
 	
 	cout << "Hasil : " << endl;
 	garis();
@@ -50,7 +47,7 @@ int main(){
 			cout << " " << input [i][j];
 		}
 		cout << endl;
-}
+	}
 	garis();
 	
 	for (i = 0; i < kolom; i++){
@@ -62,7 +59,7 @@ int main(){
 	garis();
 	
 	return 0;
-}
+	}
   
 ## Output
 ![Uas 2 dimensi](https://user-images.githubusercontent.com/121142632/209268979-b7ed709e-6988-4634-b961-9524640318c1.png)
